@@ -81,6 +81,8 @@ type SlicerOptions struct {
 //	    Width:      200,
 //	    Height:     200,
 //	})
+//
+// 测试一下能不能推过去
 func (f *File) AddSlicer(sheet string, opts *SlicerOptions) error {
 	opts, err := parseSlicerOptions(opts)
 	if err != nil {
